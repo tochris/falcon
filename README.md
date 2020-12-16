@@ -20,7 +20,7 @@ All models can be trained with the `scripts/train.py` script. In the case of ima
     `-model LSTM_falcon -data MNISTseq`\
     `-model GRU_falcon -data MNISTseq`\
     `-model LSTM_NLP_falcon -data Newsgroups20`\
-    `-model ResNet50_falcon -data Imagenet`\
+    `-model ResNet50_falcon -data Imagenet`
 
 **Additional command line arguments:**\
     `--bool_load_model`: Specify whether to load the model or randomly initialize it\
@@ -43,7 +43,7 @@ All models can be trained with the `scripts/train.py` script. In the case of ima
     `--input_seq_length`: Is needed only for NLP tasks\
     `--n_vocab_words`: Length of vocabulary (is needed only for NLP tasks)\
     `--embedding_layer_size`: Is needed only for NLP tasks\
-    `--random_seed`: Optionally set random seed\
+    `--random_seed`: Optionally set random seed
 
 ## Evaluation
 
@@ -58,7 +58,7 @@ Evaluation of the trained models is done with the `scripts/eval.py` script. All 
     `-model LSTM_NLP_falcon -data Newsgroups20`\
     `-model ResNet50_falcon -data Imagenet`\
     `-model ResNet50_falcon -data ObjectNet_not_imagenet`\
-    `-model ResNet50_falcon -data ObjectNet_only_imagenet`\
+    `-model ResNet50_falcon -data ObjectNet_only_imagenet`
 
 **Additional command line arguments:**\
     `--load_path`: Path to where the model is loaded from\
@@ -73,7 +73,7 @@ Evaluation of the trained models is done with the `scripts/eval.py` script. All 
     `--perturbations_nlp_list`: Specify perturbations to apply to the nlp dataset\
     `--eval_metrics_list`: Specify evaluation metrics\
     `--input_seq_length`: Is needed only for NLP tasks\
-    `--n_vocab_words`: Length of vocabulary (is needed only for NLP tasks)\
+    `--n_vocab_words`: Length of vocabulary (is needed only for NLP tasks)
 
 
 ## Folder structure
@@ -91,8 +91,8 @@ The python source code for all the class systems implemented in this project.
 `source/data`: Data classes used in the project.\
 `source/models`: Implementations of FALCON models.\
 `source/utilsevaluation`: All scripts that act as helpers for evaluation.\
-`source/utils`: Utility functions that are used in the scripts.\
+`source/utils`: Utility functions that are used in the scripts.
 
 `source/Evaluator.py`: Class that handels evaluation of models.\
 `source/generator.py`: Computes perturbations from data.\
-`source/model_factory.py`: Class that handels training and prediction.\
+`source/model_factory.py`: Class that handels training and prediction.
