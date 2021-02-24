@@ -2,6 +2,8 @@
 
 This repository contains code used to run experiments in the paper "C. Tomani and F. Buettner, Towards Trustworthy Predictions from Deep Neural Networks with Fast Adversarial Calibration, AAAI 2021 (accepted)".
 
+<https://arxiv.org/abs/2012.10923>
+
 It contains executable training and evaluation scripts for FALCON model described in detail in the paper.
 
 ## Datasets
